@@ -1,4 +1,72 @@
+# =========================
+# Python
+# =========================
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environment
 .venv/
+venv/
+ENV/
+
+# =========================
+# Environment variables
+# =========================
 .env
+.env.local
+.env.*.local
+
+# =========================
+# IDE / editor
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Jupyter (if you use later)
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Logs (optional but useful)
+# =========================
+logs/
+*.log
+
+# =========================
+# Data cache (your project-specific)
+# =========================
+data/cache/
+backend/cache/
+
+# =========================
+# Streamlit
+# =========================
+.streamlit/secrets.toml
+
+# =========================
+# Docker
+# =========================
+*.pid
+
+# =========================
+# Local Superset / tooling (if reused)
+# =========================
+.superset/
+
+# =========================
+# Trading secrets
+# =========================
+secrets.json
+credentials.json
